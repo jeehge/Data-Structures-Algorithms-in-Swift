@@ -17,15 +17,11 @@ Swift Standard Libray 는 swift 언어의 핵심 구성 요소가 포함된 프�
 
 자신만의 사용자 정의 데이터 구조를 만들기 전에 Swift Standard Library 가 이미 제공하는 기본 데이터 구조를 이해하는 것이 중요하다.
 
-<br>
-
 1. Array
 
 2. Dictionary
 
 3. Set
-
-<br>
 
 Swift는 콜렉션의 값을 저장하기 위한 배열 (array), 집합 (set), 딕셔너리 (dictionary)와 같은 3개의 원시적인 콜렉션 타입 (collection types) 을 제공한다. 
 
