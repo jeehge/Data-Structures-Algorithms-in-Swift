@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E98DF2BD273ECC61000C84BC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98DF2BC273ECC61000C84BC /* Stack.swift */; };
+		E98DF2C1273ED7D0000C84BC /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98DF2C0273ED7D0000C84BC /* Print.swift */; };
 		E9F4E8A02729A2340089ED10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F4E89F2729A2340089ED10 /* AppDelegate.swift */; };
 		E9F4E8A22729A2340089ED10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F4E8A12729A2340089ED10 /* SceneDelegate.swift */; };
 		E9F4E8A42729A2340089ED10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F4E8A32729A2340089ED10 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		E98DF2BC273ECC61000C84BC /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		E98DF2C0273ED7D0000C84BC /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
 		E9F4E89C2729A2340089ED10 /* AlgorithmsStudyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmsStudyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F4E89F2729A2340089ED10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9F4E8A12729A2340089ED10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E98DF2BE273ED777000C84BC /* Section II */ = {
+			isa = PBXGroup;
+			children = (
+				E98DF2BC273ECC61000C84BC /* Stack.swift */,
+			);
+			path = "Section II";
+			sourceTree = "<group>";
+		};
+		E98DF2BF273ED7A0000C84BC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E98DF2C0273ED7D0000C84BC /* Print.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		E9F4E8932729A2340089ED10 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +78,7 @@
 		E9F4E89E2729A2340089ED10 /* AlgorithmsStudyProject */ = {
 			isa = PBXGroup;
 			children = (
+				E98DF2BE273ED777000C84BC /* Section II */,
 				E9F4E89F2729A2340089ED10 /* AppDelegate.swift */,
 				E9F4E8A12729A2340089ED10 /* SceneDelegate.swift */,
 				E9F4E8A32729A2340089ED10 /* ViewController.swift */,
@@ -68,7 +87,7 @@
 				E9F4E8AD2729A2370089ED10 /* LaunchScreen.storyboard */,
 				E9F4E8B02729A2370089ED10 /* Info.plist */,
 				E9F4E8A82729A2340089ED10 /* AlgorithmsStudyProject.xcdatamodeld */,
-				E98DF2BC273ECC61000C84BC /* Stack.swift */,
+				E98DF2BF273ED7A0000C84BC /* Helpers */,
 			);
 			path = AlgorithmsStudyProject;
 			sourceTree = "<group>";
@@ -145,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9F4E8A42729A2340089ED10 /* ViewController.swift in Sources */,
+				E98DF2C1273ED7D0000C84BC /* Print.swift in Sources */,
 				E98DF2BD273ECC61000C84BC /* Stack.swift in Sources */,
 				E9F4E8AA2729A2340089ED10 /* AlgorithmsStudyProject.xcdatamodeld in Sources */,
 				E9F4E8A02729A2340089ED10 /* AppDelegate.swift in Sources */,
