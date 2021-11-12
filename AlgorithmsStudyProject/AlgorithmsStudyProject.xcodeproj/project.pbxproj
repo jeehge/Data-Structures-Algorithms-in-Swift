@@ -43,12 +43,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E98DF2BE273ED777000C84BC /* Section II */ = {
+		E98DF2BE273ED777000C84BC /* Stack */ = {
 			isa = PBXGroup;
 			children = (
 				E98DF2BC273ECC61000C84BC /* Stack.swift */,
 			);
-			path = "Section II";
+			path = Stack;
 			sourceTree = "<group>";
 		};
 		E98DF2BF273ED7A0000C84BC /* Helpers */ = {
@@ -78,7 +78,7 @@
 		E9F4E89E2729A2340089ED10 /* AlgorithmsStudyProject */ = {
 			isa = PBXGroup;
 			children = (
-				E98DF2BE273ED777000C84BC /* Section II */,
+				E98DF2BE273ED777000C84BC /* Stack */,
 				E9F4E89F2729A2340089ED10 /* AppDelegate.swift */,
 				E9F4E8A12729A2340089ED10 /* SceneDelegate.swift */,
 				E9F4E8A32729A2340089ED10 /* ViewController.swift */,
