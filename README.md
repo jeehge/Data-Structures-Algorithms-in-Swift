@@ -6,20 +6,22 @@ raywenderlich 👉 [링크](https://www.raywenderlich.com/books/data-structures-
 
 ### 목차
 
-[Section I: Introduction](#section-I:-introduction)
+[Section I: Introduction](#introduction)
 
-[Section II: Elementary Data Structures](#section-II:-elementary-data-structures)
+[Section II: Elementary Data Structures](#elementary-data-structures)
 
 <br>
 <br>
 
-## Section I: Introduction
+# Introduction
 
 1. 시간복잡도는 input 크기에 따라 알고리즘을 실행하는데 필요한 시간의 측정 값
 2. 공간복잡도는 알고리즘 실행에 필요한 자원의 척도
 3. O 표기법은 일반적인 형태의 시간과 공간 복잡도를 나타내는데 사용
 
-### Swift Standard Library
+<br>
+
+## Swift Standard Library
 
 Swift Standard Libray 는 swift 언어의 핵심 구성 요소가 포함된 프레임워크이다.
 
@@ -44,9 +46,11 @@ Swift는 콜렉션의 값을 저장하기 위한 배열 (array), 집합 (set), �
 
 참고 👉 [링크](https://bbiguduk.gitbook.io/swift/language-guide-1/collection-types)
 
-## Section II: Elementary Data Structures
+<br>
 
-### Stack
+# Elementary Data Structures
+
+## Stack
 
 스택에는 두 가지 필수 작업이 있다.
 - push : 스택의 맨 위에 아이템을 추가
@@ -61,10 +65,10 @@ Swift는 콜렉션의 값을 저장하기 위한 배열 (array), 집합 (set), �
 2. 메모리 할당은 아키텍처 수준에서 스택을 사용한다. 지역 변수에 대한 메모리도 스택을 사용하여 관리된다.
 3. 미로에서 경로 찾기와 같은 검색 및 정복 알고리즘은 스택을 사용하여 역추적을 용이하게 한다.
 
-### Linked List
+## Linked List
 
 
-### Queue
+## Queue
 
 
 
