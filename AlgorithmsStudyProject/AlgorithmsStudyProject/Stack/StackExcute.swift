@@ -1,5 +1,5 @@
 //
-//  Excute.swift
+//  StackExcute.swift
 //  AlgorithmsStudyProject
 //
 //  Created by JH on 2021/11/14.
@@ -7,11 +7,11 @@
 
 import Foundation
 
-final class Excute {
+final class ExcuteStack {
     
     // MARK: - Excute
     
-    static func exampleStack() {
+    static func result() {
         example(of: "using a stack") {
             var stack = Stack<Int>()
             stack.push(1)
@@ -46,7 +46,7 @@ final class Excute {
     
     // 1. Reverse an Array
     // 배열의 내용을 반전된 순서로 프린트하는 함수
-    static func challengesStack1() {
+    static func challenges1() {
         let array: [Int] = [1, 2, 3, 4, 5]
         
         func printInReverse<T>(_ array: [T]) {
@@ -68,7 +68,7 @@ final class Excute {
     // 괄호를 확인하라. 문자열이 주어지면 문자열의 괄호가 균형을 이루면서 문자가 있는지 확인하고 true를 반환
     // 예1 : h((e))llo(world)() // balanced parentheses
     // 예2 : (hello world // unbalanced parentheses
-    static func challengesStack2() {
+    static func challenges2() {
         let inputString: String = "(hello world"
         
         func checkParentheses(_ string: String) -> Bool {
