@@ -4,14 +4,14 @@ raywenderlich 👉 [링크](https://www.raywenderlich.com/books/data-structures-
 
 영어 문서를 보면서 영어도 익히고 부족한 데이터 구조 및 알고리즘 공부를 위한 repo
 
+<!--
 ### 목차
 
 [Section I: Introduction](#introduction)
 
 [Section II: Elementary Data Structures](#elementary-data-structures)
 
-<br>
-<br>
+-->
 
 1. 시간복잡도는 input 크기에 따라 알고리즘을 실행하는데 필요한 시간의 측정 값
 2. 공간복잡도는 알고리즘 실행에 필요한 자원의 척도
