@@ -6,10 +6,14 @@ raywenderlich 👉 [링크](https://www.raywenderlich.com/books/data-structures-
 
 ### 목차
 
-[Section I: Introduction](#Section I: Introduction)
-[Section II: Elementary Data Structures](#Section II: Elementary Data Structures)
+[Section I: Introduction](#Section-I:-Introduction)
 
-## Section I: Introduction
+[Section II: Elementary Data Structures](#Section-II:-Elementary-Data-Structures)
+
+<br>
+<br>
+
+##Section I: Introduction
 
 1. 시간복잡도는 input 크기에 따라 알고리즘을 실행하는데 필요한 시간의 측정 값
 2. 공간복잡도는 알고리즘 실행에 필요한 자원의 척도
@@ -40,7 +44,7 @@ Swift는 콜렉션의 값을 저장하기 위한 배열 (array), 집합 (set), �
 
 참고 👉 [링크](https://bbiguduk.gitbook.io/swift/language-guide-1/collection-types)
 
-## Section II: Elementary Data Structures
+##Section II: Elementary Data Structures
 
 # Stack
 
