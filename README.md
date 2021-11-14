@@ -6,9 +6,9 @@ raywenderlich 👉 [링크](https://www.raywenderlich.com/books/data-structures-
 
 ### 목차
 
-[Section I: Introduction](#Section-I:-Introduction)
+[Section I: Introduction](#section-I:-introduction)
 
-[Section II: Elementary Data Structures](#Section-II:-Elementary-Data-Structures)
+[Section II: Elementary Data Structures](#section-II:-elementary-data-structures)
 
 <br>
 <br>
