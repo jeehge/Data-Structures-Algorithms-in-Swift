@@ -18,6 +18,7 @@ public struct Stack<Element> {
     }
     
     // MARK: - 스택 필수 작업
+    
     public mutating func push(_ element: Element) {
         storage.append(element)
     }
@@ -28,6 +29,7 @@ public struct Stack<Element> {
     }
     
     // MARK: - 스택을 쉽게 사용할 수 있는 작업
+    
     // 스택의 최고 아이템 반환
     public func peek() -> Element? {
         storage.last
