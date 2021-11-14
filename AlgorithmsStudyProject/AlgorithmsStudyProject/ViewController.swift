@@ -31,9 +31,18 @@ class ViewController: UIViewController {
             }
         }
         
+        // 문자열 스택을 생성 후 아이템 "D"를 팝합니다
+        // swift 컴파일러는 더 많은 자세한 스택
         example(of: "initializing a stack from an array") {
             let array = ["A", "B", "C", "D"]
             var stack = Stack(array)
+            print(stack)
+            stack.pop()
+            
+        }
+        
+        example(of: "initializing a stack from an array literal") {
+            var stack: Stack = [1.0, 2.0, 3.0, 4.0]
             print(stack)
             stack.pop()
         }

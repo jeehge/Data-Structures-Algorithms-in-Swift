@@ -54,3 +54,9 @@ extension Stack: CustomStringConvertible {
     """
     }
 }
+
+extension Stack: ExpressibleByArrayLiteral {
+    public init(arrayLiteral elements: Element...) {
+        storage = elements
+    }
+}
