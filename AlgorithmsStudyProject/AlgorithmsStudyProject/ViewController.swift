@@ -12,7 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Excute.exampleStack()
+//        Excute.exampleStack()
+        Excute.challengesStack1()
+        Excute.challengesStack2()
     }
 }
 

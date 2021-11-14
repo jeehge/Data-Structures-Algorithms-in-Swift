@@ -43,4 +43,51 @@ final class Excute {
             stack.pop()
         }
     }
+    
+    // 1. Reverse an Array
+    // 배열의 내용을 반전된 순서로 프린트하는 함수
+    static func challengesStack1() {
+        let array: [Int] = [1, 2, 3, 4, 5]
+        
+        func printInReverse<T>(_ array: [T]) {
+            var stack = Stack<T>()
+            
+            for value in array {
+                stack.push(value)
+            }
+            
+            while let value = stack.pop() {
+                print(value)
+            }
+        }
+        
+        printInReverse(array)
+    }
+    
+    // 2. Balance the parentheses
+    // 괄호를 확인하라. 문자열이 주어지면 문자열의 괄호가 균형을 이루면서 문자가 있는지 확인하고 true를 반환
+    // 예1 : h((e))llo(world)() // balanced parentheses
+    // 예2 : (hello world // unbalanced parentheses
+    static func challengesStack2() {
+        let inputString: String = "(hello world"
+        
+        func checkParentheses(_ string: String) -> Bool {
+            var stack = Stack<Character>()
+            
+            for character in string {
+                if character == "(" {
+                    stack.push(character)
+                } else if character == ")" {
+                    if stack.isEmpty {
+                        return false
+                    } else {
+                        stack.pop()
+                    }
+                }
+            }
+            return stack.isEmpty
+        }
+        
+        print(checkParentheses(inputString))
+    }
 }
