@@ -13,6 +13,10 @@ public struct Stack<Element> {
     
     public init() { }
     
+    public init(_ elements: [Element]) {
+        storage = elements
+    }
+    
     // MARK: - 스택 필수 작업
     public mutating func push(_ element: Element) {
         storage.append(element)
