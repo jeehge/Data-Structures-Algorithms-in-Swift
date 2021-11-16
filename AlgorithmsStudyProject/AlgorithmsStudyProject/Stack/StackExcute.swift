@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class ExcuteStack {
+final class StackExcute {
     
     // MARK: - Excute
     

@@ -13,8 +13,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
 //        ExcuteStack.result()
-        ExcuteStack.challenges1()
-        ExcuteStack.challenges2()
+        StackExcute.challenges1()
+        StackExcute.challenges2()
+        
+        ListedListExcute.result()
     }
 }
 
