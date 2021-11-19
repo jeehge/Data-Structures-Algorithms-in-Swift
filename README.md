@@ -101,5 +101,8 @@ Node 와 Reference 는 그림과 같다.
 
 # Queue
 
+먼저 온 순서대로 작업을 해준다. 이게 First In First Out(FIFO) 방식입니다.
+
+Queue는 선형 자료구조. 
 
 
