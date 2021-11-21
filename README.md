@@ -105,4 +105,19 @@ Node 와 Reference 는 그림과 같다.
 
 Queue는 선형 자료구조. 
 
+- 스위프트에서 배열 구조체 (Array)
+
+스위프트의 배열에서는 먼저 크게 늘려놓으니 빈 공간에 추가할 땐 수행 속도가 빠르다.
+
+Array-Based Queue
+
+|Operations|Best case|Worse case|
+|----------|---------|----------|
+|enqueue(_:)|O(1)|O(1)|
+|dequeue(_:)|O(n)|O(n)| 
+|Space Complexity|O(n)|O(n)|
+
+dequeue(_:) <- Queue 하나 없어지고 그 자리 채우는 작업 수행시간 O(n)
+
+
 
