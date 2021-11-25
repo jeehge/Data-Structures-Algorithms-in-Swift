@@ -26,6 +26,8 @@ public struct QueueArray<T>: Queue { // Queue 프로토콜 채택
     }
     
     public mutating func dequeue() -> T? {
+        // 비어있으면 제거해야 할 것이 없으므로 반환값도 없음
+        // dequeue 시 element를 앞으로 한 칸 씩 이동시켜야 함으로 비효율적 -> 성능 낮아짐
         isEmpty ? nil : array.removeFirst()
     }
 }
