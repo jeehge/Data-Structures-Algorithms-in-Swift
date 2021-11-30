@@ -120,4 +120,28 @@ Array-Based Queue
 dequeue(_:) <- Queue 하나 없어지고 그 자리 채우는 작업 수행시간 O(n)
 
 
+예를 들어봅시다
+
+Queue가 어떻게 작동하는지 이해하기 가장 쉬운 방법은 실제 사례를 보는 것이다.
+
+영화표를 받기 위해 줄을 서서 기다리는 사람들을 상상해 보자!
+
+
+<img width="534" alt="스크린샷 2021-11-30 오후 3 48 23" src="https://user-images.githubusercontent.com/8108570/143999262-4a4a21cb-4e4a-4361-a4cb-2f83c5cd2437.png">
+
+
+Queue는 현재 Ray, Brian, Sam 및 MIc 를 보유하고 있다.
+
+일단 Ray가 티켓을 받으면 그는 line에서 벗어나게 된다. dequeue()를 통해 
+
+Ray는 Queue 앞쪽에서 제거된다.
+
+peek를 호출하면 Brian 을 반환한다.
+
+
+
+
+
+
+
 
