@@ -130,16 +130,50 @@ Queue가 어떻게 작동하는지 이해하기 가장 쉬운 방법은 실제 �
 <img width="534" alt="스크린샷 2021-11-30 오후 3 48 23" src="https://user-images.githubusercontent.com/8108570/143999262-4a4a21cb-4e4a-4361-a4cb-2f83c5cd2437.png">
 
 
-Queue는 현재 Ray, Brian, Sam 및 MIc 를 보유하고 있다.
+영화표를 사기 위해 현재 Ray, Brian, Sam, Mic 가 줄을 서 있다.
 
 일단 Ray가 티켓을 받으면 그는 line에서 벗어나게 된다. dequeue()를 통해 
 
-Ray는 Queue 앞쪽에서 제거된다.
+Ray는 영화표를 사기 위한 대기줄에서 빠진다. 
 
-peek를 호출하면 Brian 을 반환한다.
+종업원이 다음 사람을 부르면 Brian이 티켓을 사기 위해 한 칸 땡겨질 것이다. 
+
+peek()를 호출하면 Brian을 반환한다.
+
+티켓을 사기 위해 Vicki가 있다. 
+
+enqueue("Vicki")를 호출하면 Vicki가 대기열 뒤에 추가된다.
+
+
+4가지 방법으로 Queue를 만드는 방법을 익힐 것이다.
+
+1. Array 사용
+2. Linked List 사용
+3. Ring Bffer 사용
+4. 두 개의 Stack 사용
+
+
+### Array-based implementation
+
+Swift 표준 라이브러리는 higher-level abstractions 구축하는데 사용할 수 있는 최적화 된 코어 세트, primitive data structures 가 함께 제공된다.
+
+그 중 하나는 연속적인 데이터, 정렬된 목록을 저장하는 데이터 구조인 배열입니다. 
+
+배열을 사용하여 Queue를 만들어 봅시다.
 
 
 
+### Doubly linked list implementation
+
+
+
+
+### Ring buffer implementation
+
+
+
+
+### Double-stack implementation
 
 
 
